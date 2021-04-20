@@ -13,13 +13,16 @@
 }
 #menu li{
     display: inline;
-    padding: 25px;
+    padding: 35px;
 }
 #menu li a{
-    text-decoration: none; /*Sem decoração*/
+    text-decoration: overline; /*Sem decoração*/
     color: rgb(0, 0, 0);
     font-size: px;
-    font-family: Verdana;
+    border: 1px solid #239c9c;
+    background: linear-gradient(1deg, rgb(86, 190, 176) 10%, rgb(149, 226, 233) 90%) ;
+    font-style: italic;
+
 }
 #menu li a:hover{  /*Quando passar em cima de home ou contato mudar a cor para cinza*/
     color : rgb(197, 176, 176);
@@ -52,10 +55,26 @@ body {
 
 }
 .photo {
-    border: 2px solid #56cece;
+    border: 1px solid #56cece;
    
     border-radius: 110%;
 }
+.desi-1{
+    font-style: italic;
+    color:rgb(41, 45, 92);
+    text-decoration: underline;
+    
+}
+.bott{
+    background: linear-gradient(1deg, rgb(93, 118, 163) 10%, rgb(168, 94, 162) 90%) ;
+    font-style: italic;
+    
+}
+.bordatext{
+    border: solid 3px #56cece;
+    
+}
+
 
 
 /*Estilos  da Página contato.html*/

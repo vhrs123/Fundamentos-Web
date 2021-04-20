@@ -17,9 +17,9 @@
             <a href="contato.html" >CONTATO</a>   
         </li>
      </ul>
-     <h1 class="center"> Gostou da Nossa Iniciativa ?</h1> <!-- Titulo -->
+     <h1 class="center desi-1"> Gostou da Nossa Iniciativa ?</h1> <!-- Titulo -->
 
-    <h2 class="center" > Se sim Entre em contato:</h2   >  <!-- SubTitulo -->
+    <h2 class="center desi-1 " > Se sim Entre em contato:</h2   >  <!-- SubTitulo -->
 
     <div class="container mb-50">
 
@@ -27,18 +27,18 @@
 
             <form>
                 <label for="nome"> Nome:</label> <br>
-                <input type="text" id="nome">
-        <br> <!-- Para Pular Linhas -->
-        <br> <!-- Para Pular Linhas -->
+                <input type="text" id="nome"onkeyup="validaNome()">
+                <div id="txtNome"> </div>
+                <br> <!-- Para Pular Linhas -->
                 <label for="email"> E-mail:</label><br>
-                <input type="text" id="email">
-        <br> <!-- Para Pular Linhas -->
-        <br> <!-- Para Pular Linhas -->
+                <input type="text" id="email" onkeyup="validaEmail">
+                <div id="txtNome"> </div>
+                <br> <!-- Para Pular Linhas -->
                 <label for="assunto"> Assunto:</label><br>
-                <textarea name="assunto" id="" cols="40" rows="5"></textarea>
-        <br>
-        <br>
-            <button>Enviar</button>        
+                <textarea name="assunto" id="" cols="40" rows="5"onkeyup="validaAssunto()"></textarea>
+                 <div id="txtAssunto"> </div>
+                <br>
+            <button onclick="anviar()" class="bott">Enviar</button>        
             </form> 
         </div>
 
@@ -55,6 +55,9 @@
             style="border:0;" 
             allowfullscreen="" 
             loading="lazy"
+            onmousemove="mapazoom()"
+            onmouseout="mapanormal()"
+            id="mapa"
             ></iframe>
         </div>
     </div>
@@ -88,7 +91,8 @@
     </P>
 
     </footer>
-    
+
+    <script src="assets/JavaScript/script.js"></script>
    
     
 </body> <!-- Aqui fica o conteudo da Pagina-->
