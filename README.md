@@ -1,9 +1,7 @@
+<div class = “container”>
+<img src="  <blockquote class="imgur-embed-pub" lang="en" data-id="a/nihwC4T" data-context="false" ><a href="//imgur.com/a/nihwC4T"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>"/>
 
-<img src="  https://imgur.com/nihwC4T"/"/>
-
-<center></center>
-<center>Esse texto vai ficar centralizado.
-<p>Este parágrafo também.</p></center>
+ 
 
 <center><h1> ARMAZÉM NATURAL <h1></center>
 
@@ -42,4 +40,6 @@ equilibrar a competição comercial com grandes marcas, de forma acessível aos 
 <center><h5> 
 	🚧  React Select 🚀 Em construção...  🚧
 </h5><center>
+
+</div>
 
