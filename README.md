@@ -1,6 +1,10 @@
-<img src="https://www.canva.com/design/DAEeaWjtixU/NSnrC2BZwB5aIFP_ekZh2g/view?utm_content=DAEeaWjtixU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"/>
+<img src="> https://imgur.com/nihwC4T"/>
 
-<div style="text-align:center"> <h1> ARMAZÉM NATURAL <h1> </div>
+<center></center>
+<center>Esse texto vai ficar centralizado.
+<p>Este parágrafo também.</p></center>
+
+<center><h1> ARMAZÉM NATURAL <h1></center>
 
 
 
@@ -27,13 +31,3 @@ equilibrar a competição comercial com grandes marcas, de forma acessível aos 
 
   <li>Vitor Hugo Rodrigues da Silva</li>
 </ul>
-</div>
-
-
-  <div style="text-align:center"><h4> 2021 </h4></div>
-
-
-
-<div style="text-align:center"><h5> 
-	🚧  React Select 🚀 Em construção...  🚧
-</h5></div>
